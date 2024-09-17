@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>	<?xml version="1.0" encoding="utf-8"?>
+<resources>	<resources>
+    <string name="loki_app_name">Creative Cloud</string>
+    <string name="action_about_CreativeCloud">About Creative Cloud</string>
+	<string name="action_about_CreativeCloud_document">About Creative Cloud Document</string>
+</resources>
