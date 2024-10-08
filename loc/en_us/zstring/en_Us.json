@@ -1,0 +1,878 @@
+{
+  "app": {
+    "title": "Adobe",
+    "description": "Adobe ID"
+  },
+  "common": {
+    "backBtn": "Back",
+    "resendCode": "Resend Code",
+    "back": "Sign in with a different email address",
+    "selectAccount": "Select an account",
+    "changeAccount": "Sign in to a different account",
+    "continue": "Continue",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "signin": "Sign in",
+    "skip": "Skip",
+    "kool": "koool",
+    "accountTypes": {
+      "individual": "Personal Account",
+      "enterprise": "Company or School Account",
+      "federated": "Company or School Account"
+    },
+    "social": {
+      "continueGoogle": "Continue with Google",
+      "continueFacebook": "Continue with Facebook",
+      "continueApple": "Continue with Apple"
+    },
+    "welcomeBackTitle": "Welcome back",
+    "reauthenticateNotice": "For your protection, please verify your identity.",
+    "countries": {
+      "AF": "Afghanistan",
+      "AL": "Albania",
+      "DZ": "Algeria",
+      "AS": "American Samoa",
+      "AD": "Andorra",
+      "AO": "Angola",
+      "AI": "Anguilla",
+      "AQ": "Antarctica",
+      "AG": "Antigua and Barbuda",
+      "AR": "Argentina",
+      "AM": "Armenia",
+      "AW": "Aruba",
+      "AU": "Australia",
+      "AT": "Austria",
+      "AZ": "Azerbaijan",
+      "BS": "Bahamas",
+      "BH": "Bahrain",
+      "BD": "Bangladesh",
+      "BB": "Barbados",
+      "BY": "Belarus",
+      "BE": "Belgium",
+      "BZ": "Belize",
+      "BJ": "Benin",
+      "BM": "Bermuda",
+      "BT": "Bhutan",
+      "BO": "Bolivia",
+      "BA": "Bosnia and Herzegovina",
+      "BW": "Botswana",
+      "BR": "Brazil",
+      "IO": "British Indian Ocean",
+      "BN": "Brunei",
+      "BG": "Bulgaria",
+      "BF": "Burkina Faso",
+      "BI": "Burundi",
+      "KH": "Cambodia",
+      "CM": "Cameroon",
+      "CA": "Canada",
+      "CV": "Cape Verde",
+      "KY": "Cayman Islands",
+      "CF": "Central African Republic",
+      "TD": "Chad",
+      "CL": "Chile",
+      "CN": "China",
+      "CX": "Christmas Island",
+      "CC": "Cocos (Keeling) Islands",
+      "CO": "Colombia",
+      "KM": "Comoros",
+      "CG": "Congo, Republic of the",
+      "CK": "Cook Islands",
+      "CR": "Costa Rica",
+      "HR": "Croatia",
+      "CY": "Cyprus",
+      "CZ": "Czech Republic",
+      "CD": "Democratic Republic of the Congo",
+      "DK": "Denmark",
+      "DJ": "Djibouti",
+      "DM": "Dominica",
+      "DO": "Dominican Republic",
+      "TL": "East Timor",
+      "EC": "Ecuador",
+      "EG": "Egypt",
+      "SV": "El Salvador",
+      "GQ": "Equatorial Guinea",
+      "ER": "Eritrea",
+      "EE": "Estonia",
+      "ET": "Ethiopia",
+      "FK": "Falkland Islands (Malvinas)",
+      "FO": "Faroe Islands",
+      "FJ": "Fiji",
+      "FI": "Finland",
+      "FR": "France",
+      "GF": "French Guiana",
+      "PF": "French Polynesia",
+      "GA": "Gabon",
+      "GM": "Gambia",
+      "GE": "Georgia",
+      "DE": "Germany",
+      "GH": "Ghana",
+      "GI": "Gibraltar",
+      "GR": "Greece",
+      "GL": "Greenland",
+      "GD": "Grenada",
+      "GP": "Guadeloupe",
+      "GT": "Guatemala",
+      "GN": "Guinea",
+      "GW": "Guinea-Bissau",
+      "GY": "Guyana",
+      "HT": "Haiti",
+      "HN": "Honduras",
+      "HK": "Hong Kong SAR of China",
+      "HU": "Hungary",
+      "IS": "Iceland",
+      "IN": "India",
+      "ID": "Indonesia",
+      "IQ": "Iraq",
+      "IE": "Ireland",
+      "IL": "Israel",
+      "IT": "Italy",
+      "CI": "Ivory Coast (Côte d'Ivoire)",
+      "JM": "Jamaica",
+      "JP": "Japan",
+      "JO": "Jordan",
+      "KZ": "Kazakhstan",
+      "KE": "Kenya",
+      "KI": "Kiribati",
+      "KR": "Korea, South",
+      "KV": "Kosovo",
+      "KW": "Kuwait",
+      "KG": "Kyrgyzstan",
+      "LA": "Laos",
+      "LV": "Latvia",
+      "LB": "Lebanon",
+      "LS": "Lesotho",
+      "LR": "Liberia",
+      "LY": "Libya",
+      "LI": "Liechtenstein",
+      "LT": "Lithuania",
+      "LU": "Luxembourg",
+      "MO": "Macau SAR of China",
+      "MK": "Macedonia, Republic of",
+      "MG": "Madagascar",
+      "MW": "Malawi",
+      "MY": "Malaysia",
+      "MV": "Maldives",
+      "ML": "Mali",
+      "MT": "Malta",
+      "MH": "Marshall Islands",
+      "MQ": "Martinique",
+      "MR": "Mauritania",
+      "MU": "Mauritius",
+      "YT": "Mayotte",
+      "MX": "Mexico",
+      "FM": "Micronesia",
+      "MD": "Moldova",
+      "MC": "Monaco",
+      "MN": "Mongolia",
+      "ME": "Montenegro",
+      "MS": "Montserrat",
+      "MA": "Morocco",
+      "MZ": "Mozambique",
+      "MM": "Myanmar",
+      "NA": "Namibia",
+      "NR": "Nauru",
+      "NP": "Nepal",
+      "NL": "Netherlands",
+      "AN": "Netherlands Antilles",
+      "NC": "New Caledonia",
+      "NZ": "New Zealand",
+      "NI": "Nicaragua",
+      "NE": "Niger",
+      "NG": "Nigeria",
+      "NU": "Niue",
+      "NF": "Norfolk Island",
+      "NO": "Norway",
+      "OM": "Oman",
+      "PK": "Pakistan",
+      "PS": "Palestinian Territory",
+      "PA": "Panama",
+      "PG": "Papua New Guinea",
+      "PY": "Paraguay",
+      "PE": "Peru",
+      "PH": "Philippines",
+      "PN": "Pitcairn Island",
+      "PL": "Poland",
+      "PT": "Portugal",
+      "QA": "Qatar",
+      "RE": "Réunion",
+      "RO": "Romania",
+      "RU": "Russia",
+      "RW": "Rwanda",
+      "SH": "Saint Helena",
+      "KN": "Saint Kitts and Nevis",
+      "LC": "Saint Lucia",
+      "PM": "Saint Pierre and Miquelon",
+      "VC": "Saint Vincent and the Grenadines",
+      "WS": "Samoa",
+      "SM": "San Marino",
+      "ST": "São Tome and Principe",
+      "SA": "Saudi Arabia",
+      "SN": "Senegal",
+      "RS": "Serbia",
+      "SC": "Seychelles",
+      "SL": "Sierra Leone",
+      "SG": "Singapore",
+      "SK": "Slovakia",
+      "SI": "Slovenia",
+      "SB": "Solomon Islands",
+      "SO": "Somalia",
+      "ZA": "South Africa",
+      "GS": "South Georgia and the South Sandwich Islands",
+      "ES": "Spain",
+      "LK": "Sri Lanka",
+      "SR": "Suriname",
+      "SJ": "Svalbard and Jan Mayen",
+      "SZ": "Swaziland",
+      "SE": "Sweden",
+      "CH": "Switzerland",
+      "TW": "Taiwan Region",
+      "TJ": "Tajikistan",
+      "TZ": "Tanzania",
+      "TH": "Thailand",
+      "TG": "Togo",
+      "TK": "Tokelau",
+      "TO": "Tonga",
+      "TT": "Trinidad and Tobago",
+      "TN": "Tunisia",
+      "TR": "Turkey",
+      "TM": "Turkmenistan",
+      "TC": "Turks and Caicos Islands",
+      "TV": "Tuvalu",
+      "UG": "Uganda",
+      "UA": "Ukraine",
+      "AE": "United Arab Emirates",
+      "GB": "United Kingdom",
+      "US": "United States",
+      "UM": "United States Minor Outlying Islands",
+      "UY": "Uruguay",
+      "UZ": "Uzbekistan",
+      "VU": "Vanuatu",
+      "VA": "Vatican City",
+      "VE": "Venezuela",
+      "VN": "Vietnam",
+      "VG": "Virgin Islands, British",
+      "WF": "Wallis and Futuna",
+      "EH": "Western Sahara",
+      "YE": "Yemen",
+      "ZM": "Zambia",
+      "ZW": "Zimbabwe"
+    },
+    "date": {
+      "year": "Year",
+      "month": "Month",
+      "day": "Day",
+      "months": {
+        "0": "January",
+        "1": "February",
+        "2": "March",
+        "3": "April",
+        "4": "May",
+        "5": "June",
+        "6": "July",
+        "7": "August",
+        "8": "September",
+        "9": "October",
+        "10": "November",
+        "11": "December"
+      }
+    },
+    "recommended": "(Recommended)"
+  },
+  "productContext": {
+    "defaultContextMessage": "Sign in or create an account",
+    "signIn": {
+      "continue_t": "Sign in to continue",
+      "purchase_t": "Sign in to purchase"
+    },
+    "title": {
+      "shared_t": "This is a shared device"
+    },
+    "body": {
+      "shared_t": {
+        "list": {
+          "signOut": "Sign out of Creative Cloud before leaving the machine.",
+          "storeAll": "Store all of your work in a safe location, not on this device."
+        },
+        "text": "To help protect your privacy and security:",
+        "notice": "Important notice"
+      }
+    },
+    "links": {
+      "shared_t": {
+        "learnMore": "{0} Learn More {1}",
+        "privacyPolicy": "{0} Privacy Policy {1}"
+      }
+    }
+  },
+  "chooser": {
+    "title": "Choose an account"
+  },
+  "delegation": {
+    "confirmation": {
+      "approve": "Approve",
+      "dateTimeFormat": "{0} at {1}",
+      "description": "Please submit a report if you do not recognize this sign-in.",
+      "ipAddress": "IP ADDRESS",
+      "location": "LOCATION",
+      "locationFormat": "{0}, {1}",
+      "report": "Report this",
+      "time": "TIME",
+      "title": "Wait, there might be something suspicious",
+      "reported": {
+        "description": "You’ve successfully submitted the details of this incident to Adobe. This will help prevent future harmful incidents.",
+        "title": "Thanks for reporting"
+      },
+      "success": {
+        "description": "You’ve successfully signed in. Feel free to close this browser tab and return to where you previously left off.",
+        "title": "You're all set"
+      }
+    }
+  },
+  "email": {
+    "errors": {
+      "invalidEmail": "Please enter an email address.",
+      "unavailableEmail": "This email address is unavailable.",
+      "invalidLength": "The email address length should be between 6 and 60 characters.",
+      "blockCreateAccount": "No account associated with the email address",
+      "accountCreationBlockedByPolicy": "Can't sign in with this email address",
+      "personalAccountDeactivated": "Your Personal Account has been deactivated. Please review our {0} and contact {1} if you believe this is an error.",
+      "companyOrSchoolAccountDeactivated": "Your Company or School Account has been deactivated. Please review our {0} and contact {1} if you believe this is an error.",
+      "accountTemporarilyLocked": "Your account is temporarily locked. Try again later.",
+      "block": {
+        "individual": "Personal Accounts are not supported. Continue with a Company or School Account to access the service. {0} Learn more {1}",
+        "enterprise": "Company or School Accounts are not supported. Continue with a Personal Account to access the service. {0} Learn more {1}",
+        "federated": "Company or School Accounts are not supported. Continue with a Personal Account to access the service. {0} Learn more {1}"
+      },
+      "accountNotFound": "Check your email address or {0} create a new account {1}",
+      "notTheSame": "The specified emails must be identical",
+      "socialIsDisabled": "Do you usually sign in with Facebook, Google or Apple? Enter your email below and we'll help you sign in."
+    },
+    "input": "Email address",
+    "title": "Sign in",
+    "createAccount": "New user? {0} Create an account {1}",
+    "social": {
+      "or": "Or"
+    }
+  },
+  "errors": {
+    "generic": {
+      "title": "Something went wrong",
+      "text": "An unknown error has occurred. Here's the error code if you want to contact customer support"
+    },
+    "tokenInvalid": {
+      "title": "Something went wrong",
+      "text": "Continue and we'll pick up where we left off."
+    },
+    "mfaSoftLocked": {
+      "title": "Try again later",
+      "text": "For security reasons, your access is temporarily disabled. For more details, contact {0}."
+    },
+    "assetMigration": {
+      "title": "Sorry, your access has been denied",
+      "text": "Your account is temporarily unavailable while your content is being migrated."
+    },
+    "passwordResetRequired": {
+      "title": "Password change required",
+      "text": "To protect the security of your account, you must change your password before continuing. Please check your inbox for an email we just sent you; it contains instructions for how to reset your password. Once you're done you can log into your account."
+    },
+    "socialOnly": {
+      "title": "Social sign in not supported",
+      "text": "You have previously signed in with a social account, but unfortunately this application doesn't support social sign in. To continue, please create a password for your account."
+    },
+    "incomplete": {
+      "title": "Additional account details required",
+      "text": "This account is missing some important information. Please check your inbox for an email we just sent you; it contains instructions for how to complete your account. Once you're done you can log into your account."
+    },
+    "additionalAccountDetails": {
+      "title": "Verify your identity",
+      "text": "We need some additional information, but first we need to confirm your identity."
+    },
+    "passwordChangeRequired": {
+      "title": "Update your Adobe password",
+      "text": "To help protect your Adobe account, we have reset your password. To verify your identity and set a new password, please click \"Continue\" below."
+    },
+    "passwordChangeOnFirstLogin": {
+      "title": "Change your Adobe password",
+      "text": "To help protect your Adobe account, you need to choose a new password. You'll be required to verify your identity to continue."
+    },
+    "socialFallback": {
+      "title": "Social sign in not supported",
+      "text": "You have previously signed in with a social account, but unfortunately this application doesn't support social sign in. To continue, please verify your identity and create a password for your account."
+    },
+    "serviceEligibility": {
+      "title": "Sorry, your access has been denied",
+      "text": "You are ineligible to use this product or service due to the Service Eligibility Requirements. {0} Learn more {1}"
+    },
+    "blockPolicy": {
+      "title": "Account type not supported",
+      "text": "Continue with a different account to access the service."
+    },
+    "continue": {
+      "backToSignIn": "Go back to sign in",
+      "continue": "Continue",
+      "ok": "OK",
+      "signIn": "Sign in"
+    },
+    "enableJavascript": "Please enable JavaScript and try to sign in again.",
+    "javascriptDisabled": "JavaScript is disabled.",
+    "noInternet": "Your computer seems to be offline. Please check your internet and try again."
+  },
+  "links": {
+    "support": "Adobe Customer Support",
+    "supportUrl": "https://helpx.adobe.com/contact.html",
+    "supportUrlLinkFree": "https://helpx.adobe.com/contact.chromeless.html",
+    "privacyPolicy": "Privacy Policy",
+    "tou": "Terms of Use",
+    "touUrl": "https://www.adobe.com/privacy.html",
+    "termsOfUseLink": "https://www.adobe.com/legal/terms.html",
+    "termsOfUseLinkFree": "https://www.adobe.com/legal/terms-linkfree.html"
+  },
+  "password": {
+    "title": "Enter your password",
+    "forgot": "Reset your password",
+    "input": "Password",
+    "backLink": "Sign in to a different account",
+    "rememberMe": "Stay signed in",
+    "captcha": {
+      "copy": "Protected by reCAPTCHA and subject to the Google {0} and {1}.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Service",
+      "googlePrivacyPolicy": "Google Privacy Policy",
+      "googleTermsOfUse": "Google Terms of Service",
+      "privacyPolicyLink": "https://policies.google.com/privacy?hl=en",
+      "termsOfUseLink": "https://policies.google.com/terms?hl=en"
+    },
+    "errors": {
+      "incorrectPassword": "That’s an incorrect password. Try again.",
+      "invalidLength": "The password length should be between 6 and 100 characters."
+    }
+  },
+  "mfa": {
+    "title": "2-step verification",
+    "titleMfaInsteadOfCaptcha": "Verify your identity",
+    "changeMethod": "Use another method to receive the code",
+    "getHelp": "Get Help",
+    "getHelpLink": "https://www.adobe.com/go/verify_identity_fr",
+    "getHelpLinkFree": "https://helpx.adobe.com/x-productkb/global/2-step-verification-account-security.linkfree.html",
+    "success": "Verification successful",
+    "code": {
+      "description": {
+        "email": "Enter the code we've sent to {0}",
+        "phone": "Enter the code we sent to the phone number ending in {0}.",
+        "phoneAfterConfirmation": "If the phone number associated with your account ends in {0} then you'll receive a code. Enter that code below.",
+        "totp": "Enter the code generated by your authenticator app."
+      },
+      "noCodeReceived": "Didn't receive your code?",
+      "noCodeReceivedHelp": "Allow a few minutes for the message to arrive.",
+      "wasResent": "We have sent you another code.",
+      "resend": "Resend Code",
+      "verify": "Verify Code",
+      "invalid": "That's an invalid code. Try again.",
+      "expired": "That's an expired code. Try again."
+    },
+    "push": {
+      "title": "Waiting for your approval...",
+      "description": "We've sent an authentication request to your device. Please approve using Adobe Authenticator.",
+      "enterTotpCode": "Enter the code generated by your Adobe Authenticator app.",
+      "noRequestReceived": "Didn't receive the request?",
+      "noRequestReceivedHelp": "Try opening the Adobe Authenticator app.",
+      "wasResent": "We have sent you another request.",
+      "resendRequest": "Resend request",
+      "enterCode": "Enter Code",
+      "expiredTitle": "Your authentication request has expired.",
+      "expiredContent": "Please resend another request if you would like to sign in.",
+      "rejected": "You've chosen to reject the authentication request."
+    },
+    "chooser": {
+      "description": "Select a way to receive the verification code",
+      "email": "Email code to",
+      "sms": "Text code to number ending in",
+      "smsDetail": "Our texts are free, but some service providers may apply usage charges in certain cases.",
+      "totp": "Use an app to generate codes",
+      "push": "Use Adobe Authenticator",
+      "pushDetail": "We'll send an authorization request to your device for approval."
+    },
+    "error": {
+      "tryAnotherMethod": "An error has occurred. Please try another method to receive the code."
+    }
+  },
+  "passwordless": {
+    "wait": {
+      "title": "Waiting for your approval...",
+      "description": "Sign in using the Adobe Account Access app. Tap the push notification we sent or open the app if you didn’t get one.",
+      "bingo": {
+        "title": "Open the Adobe Account Access app and tap:",
+        "description": "This is the first time you’re signing in from this device or location. For additional security, please tap the number {0} in the Adobe Account Access app to approve this sign in."
+      },
+      "rememberMe": "Stay signed in",
+      "resend": "Resend request",
+      "enterCode": "Enter code",
+      "errorOccurred": "An error has occurred. Please try another sign in method.",
+      "toast": {
+        "noRequestReceived": "Didn't receive the request?",
+        "noRequestReceivedHelp": "Try opening the Adobe Account Access app.",
+        "rejectedRequest": "This request has been denied.",
+        "expiredRequest": "This request has expired.",
+        "sendAnother": "Send another request if you would like to sign in.",
+        "wasResent": "We have sent you another request.",
+        "getHelp": "Get Help",
+        "getHelpLink": "https://www.adobe.com/go/passwordless_faq_fr"
+      }
+    },
+    "approved": {
+      "title": "You have successfully signed in"
+    },
+    "wrongBingo": {
+      "title": "The number you selected didn’t match",
+      "description": "You can try again by sending another request, or selecting another way to sign in.",
+      "tryAgainButton": "Try again"
+    },
+    "enterTotpCode": "Enter the authenticator code generated by the Adobe Account Access app.",
+    "selectAnotherWay": "Select another way to sign in"
+  },
+  "passwordRecovery": {
+    "resetPasswordLabel": "Update Password",
+    "sloCheckboxLabel": "Sign out of all active logins",
+    "resetPassword": {
+      "title": "Update your password",
+      "fields": {
+        "newPassword": {
+          "label": "New password"
+        },
+        "repeatPassword": {
+          "label": "Repeat password"
+        }
+      }
+    },
+    "success": {
+      "title": "Your password has been updated",
+      "description": "For security purposes we’ve sent an email to your account confirming this change."
+    },
+    "code": {
+      "title": "Update your password",
+      "changeMethod": "Get your code another way",
+      "codeNotReceived": "Didn’t receive your code?",
+      "description": {
+        "email": "Enter the code we just sent to {0}",
+        "phone": "Enter the code we sent to the phone number ending in {0}."
+      }
+    },
+    "chooser": {
+      "title": "Verify your identity",
+      "changeAccount": "Sign in to a different account",
+      "description": "Select a way to receive the verification code",
+      "email": "Email code to",
+      "sms": "Text code to number ending in",
+      "smsDetail": "Our texts are free, but some service providers may apply usage charges in certain cases."
+    },
+    "errors": {
+      "notTheSame": "The specified passwords must be identical",
+      "emptyPassword": "Please enter a password.",
+      "invalidPassword": "That's an invalid password."
+    }
+  },
+  "socialOnly": {
+    "multipleSocialAccounts": "You've previously signed in using a social account. Please select an account to continue.",
+    "singleSocialAccount": "You've previously signed in with {0}.",
+    "providers": {
+      "facebook": "Facebook",
+      "google": "Google"
+    }
+  },
+  "assetMigration": {
+    "chooser": {
+      "title": "Asset Migration Request",
+      "explanation": "Your IT administrator has requested that all content in your Adobe account be migrated to your Enterprise account. {0}",
+      "learnMoreExplanation": "Learn more",
+      "learnMoreLink": "https://helpx.adobe.com/mena_en/enterprise/using/asset-migration-faq.html",
+      "learnMoreLinkChromeless": "https://helpx.adobe.com/mena_en/enterprise/using/asset-migration-faq.linkfree.html",
+      "choiceMigrate": "Yes, I want Adobe to migrate my content.",
+      "choiceDoNotMigrate": "No, I want to move my content manually later."
+    },
+    "polling": {
+      "title": "Your content is being migrated…"
+    },
+    "success": {
+      "title": "You're all set",
+      "text": "We’ve successfully migrated all your Adobe account assets to your Enterprise account."
+    },
+    "error": {
+      "title": "Sorry, your access has been denied",
+      "learnMoreText": "Learn more",
+      "learnMoreLink": "https://helpx.adobe.com/enterprise/using/migrate-assets-to-enterprise-account.html#interrupt",
+      "learnMoreLinkChromeless": "https://helpx.adobe.com/enterprise/using/migrate-assets-to-enterprise-account.linkfree.html#interrupt",
+      "text": "The asset migration process has been interrupted. {0}"
+    }
+  },
+  "addressConfirmation": {
+    "title": {
+      "default": "Verify your identity",
+      "phone": "Confirm your phone number"
+    },
+    "description": {
+      "phone": {
+        "template": "Enter the {0} of your phone number ending in {1}.",
+        "params": {
+          "last4Digits": "last 4 digits"
+        }
+      },
+      "email": "To confirm your identity we'll send you a verification code to {0}",
+      "secondaryEmail": "Enter your secondary email address at "
+    },
+    "input": {
+      "secondaryEmailHint": "Confirm your secondary email address at "
+    },
+    "changeMethod": "Choose a different method to verify",
+    "chooser": {
+      "description": "Choose which method to verify your identity",
+      "method": {
+        "email": "Email code to",
+        "phone": "Confirm your phone number ending in",
+        "secondaryEmail": "Enter your secondary email address",
+        "totp": "Use an app to generate codes",
+        "push": "Use Adobe Authenticator",
+        "detail": {
+          "phone": "Enter the last 4 digits of your phone number ",
+          "secondaryEmail": "Enter your full email address at ",
+          "push": "We'll send an authorization request to your device for approval."
+        }
+      }
+    }
+  },
+  "signup": {
+    "title": "Create an account",
+    "existingAccount": "Already have an account? {0} Sign in {1}",
+    "email": "Email address",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "password": "Password",
+    "country": "Country/Region",
+    "countryPlaceholder": "Select a country",
+    "createAccount": "Create account",
+    "dateOfBirth": "Date of birth",
+    "dateOfBirthTooltipInfo": "We collect your date of birth for account authentication and recovery purposes, and to ensure age-appropriate access to content. Adobe values your privacy and trust. For more information, please visit our {0}.",
+    "passwordRules": {
+      "title": "Create a password that",
+      "minimumCharacters": "contains at least {0} characters",
+      "containBothLowerUpper": "contains both lower (a-z) and upper case letters (A-Z)",
+      "containNumberOrSymbol": "contains at least one number (0-9) or a symbol",
+      "containNumberAndSymbol": "contains at least one number (0-9) and a symbol",
+      "notContainNameOrEmail": "does not contain your name or email address",
+      "notCommonlyUsed": "is not commonly used",
+      "notCommonlyOrPreviouslyUsed": "is not commonly used or a previous password"
+    },
+    "errors": {
+      "emptyEmail": "Please enter an email address.",
+      "emptyFirstName": "Please enter your first name.",
+      "emptyLastName": "Please enter your last name.",
+      "invalidFirstName": "That's an invalid first name.",
+      "invalidLastName": "That's an invalid last name.",
+      "emptyPassword": "Please enter a password.",
+      "invalidPassword": "That's an invalid password.",
+      "invalidEmail": "That's an invalid email.",
+      "emptyDateOfBirth": "Please enter your date of birth.",
+      "emailAlreadyExists": "An account with this email address already exists. {0} Sign in {1} ",
+      "accountCreationBlockedByPolicy": "Can't sign up with this domain.",
+      "emailAlreadyExistsNoLink": "An Adobe account with this email address already exists."
+    },
+    "privacyCenter": {
+      "link": "https://www.adobe.com/privacy.html",
+      "text": "Privacy Center"
+    },
+    "policies": {
+      "templates": {
+        "termsOfUse": "I have read and accepted the {0}.",
+        "keepInformed": "The {0} may keep me informed with {1} emails about products and services.",
+        "moreInformation": "See our {0} for more details or to opt-out at any time.",
+        "implicitAcceptTouCreateAcc": "By clicking Create account, I agree that I have read and accepted the {0} and {1}.",
+        "implicitAcceptTouCompleteAcc": "By clicking Complete account, I agree that I have read and accepted the {0} and {1}.",
+        "contact": "Please contact me via email",
+        "doNotContact": "Please don't contact me via email"
+      },
+      "links": {
+        "adobeCompanyFamilyText": "Adobe family of companies",
+        "adobeCompanyFamilyLink": "https://www.adobe.com/privacy/policy.html#info-share",
+        "adobeCompanyFamilyLinkFree": "https://www.adobe.com/privacy/policy-linkfree.html",
+        "personalizedEmailPolicyText": "personalized",
+        "personalizedEmailPolicyLink": "https://www.adobe.com/privacy/marketing.html#mktg-email",
+        "personalizedEmailPolicyLinkFree": "https://www.adobe.com/privacy/marketing-linkfree.html#mktg-email",
+        "termsOfUse": "https://www.adobe.com/legal/terms.html",
+        "termsOfUseLinkFree": "https://www.adobe.com/legal/terms-linkfree.html",
+        "privacyPolicy": "https://www.adobe.com/privacy/policy.html",
+        "privacyPolicyLinkFree": "https://www.adobe.com/privacy/policy-linkfree.html#info-share"
+      },
+      "implicit": {
+        "titleCreateAcc": "By clicking Create account, I agree that:",
+        "titleCompleteAcc": "By clicking Complete account, I agree that:"
+      },
+      "southKorea": {
+        "required": "Required",
+        "thirdPartyConsent": {
+          "linkTemplate": "I agree that Adobe may {0}",
+          "linkText": "provide my personal information to third parties"
+        },
+        "storageConsent": {
+          "linkTemplate": "I agree to the {0}",
+          "linkText": "collection and use of my personal information"
+        },
+        "sendServiceProviderConsent": {
+          "linkTemplate": "I agree that Adobe may {0}",
+          "linkText": "provide my personal information to Adobe's service providers"
+        },
+        "exportConsent": {
+          "linkTemplate": "I agree that Adobe may {0}",
+          "linkText": "transfer my personal information outside Korea"
+        }
+      }
+    },
+    "success": {
+      "title": "You're all set",
+      "description": "We have created an Adobe account."
+    }
+  },
+  "unsupportedBrowser": {
+    "title": "Browser not supported",
+    "text": "To use the current website, please update your browser to the latest version or try a different browser.",
+    "continueBtn": "Go to old site"
+  },
+  "progressiveProfiles": {
+    "termsOfUse": {
+      "title": "Updated Terms of Use",
+      "explanation": "By closing this window, you’ll be unable to continue using Adobe apps and services. By clicking “Accept and Continue,” you agree that you have read and accepted the {0}.",
+      "acceptTou": "Accept and Continue"
+    },
+    "dateOfBirth": {
+      "title": "Add your date of birth",
+      "explanation": "We collect your date of birth for account authentication and recovery purposes, and to ensure age-appropriate content."
+    },
+    "profileChooser": {
+      "title": "Select a profile to sign in"
+    },
+    "t2e": {
+      "profiles": {
+        "individual": "Personal Profile"
+      }
+    },
+    "t2eInvite": {
+      "title": "Welcome to {0}",
+      "explanation": "Since you already have an Adobe plan associated with this email address, we'll separate profiles for you, each with dedicated storage. {0}",
+      "learnMoreText": "Learn more",
+      "learnMoreLink": "https://www.adobe.com/go/introducing-profiles_fr",
+      "learnMoreChromeless": "https://www.adobe.com/go/introducing-profiles-linkfree_fr",
+      "profileListTitle": "Here are the profiles we'll set up:",
+      "joinTeam": "Join team",
+      "invalidError": {
+        "title": "Something went wrong",
+        "text": "This invitation has already been used or was sent to a different account. If you think this is an error, please contact the person who invited you."
+      },
+      "skipForNow": "Skip for now"
+    },
+    "invite": {
+      "title": "Welcome to {0}",
+      "explanation": "As a member of the organization, you’ll have access to the apps and storage your administrator assigned you.",
+      "joinTeam": "Join team",
+      "invalidError": {
+        "title": "Something went wrong",
+        "text": "This invitation has already been used or was sent to a different account. If you think this is an error, please contact the person who invited you."
+      }
+    },
+    "completeAccount": {
+      "title": "Complete your account",
+      "createPassword": "Please create a password for your account.",
+      "submitButton": "Complete Account"
+    },
+    "t2eAssetMigration": {
+      "chooser": {
+        "title": "Now, tell us where you'd like to store all your content",
+        "explanation": "Select the best profile for the content currently stored in Adobe cloud storage. (This doesn't apply to content stored outside of Adobe cloud storage.) We recommend selecting your Business Profile if your content is primarily related to your business plan (such as Creative Cloud for teams or enterprise, Acrobat DC for teams or enterprise). Don't worry, after your profiles are set up - which should only take a few minutes - you'll be able to move content between them at any time. {0}",
+        "learnMore": "Things to consider before you choose",
+        "learnMoreLink": "https://www.adobe.com/go/user-profiles_fr",
+        "learnMoreLinkChromeless": "https://www.adobe.com/go/user-profiles-linkfree_fr"
+      },
+      "polling": {
+        "title": "We're updating your account",
+        "explanation": "It should take less than a minute."
+      },
+      "confirmation": {
+        "title": "Confirm your profile selection",
+        "explanation": "All content, including anything personal or related to your individual plan, will be available in your Business Profile. Once your profiles are set up, you can move content between them at any time.",
+        "authAccountExplanation": "All content, including anything related to your business plan (Creative Cloud for teams or enterprise), will be available in your {0}. Once your profiles are set up, you can move content between them at any time.",
+        "personalContentWarning": "any personal content or content that is not part of",
+        "learnMoreMove": "https://www.adobe.com/go/move-assets-across-profiles_fr",
+        "learnMoreMoveChromeless": "https://www.adobe.com/go/move-assets-across-profiles-linkfree_fr"
+      },
+      "introduction": {
+        "title": "Introducing profile selection",
+        "explanation": "Since you have multiple Adobe plans associated with your email address, we've created separate profiles for you, each with dedicated storage.",
+        "profileListTitle": "Here are the profiles we've set up:",
+        "learnMoreLink": "https://www.adobe.com/go/user-profiles_fr",
+        "learnMoreLinkChromeless": "https://www.adobe.com/go/user-profiles-linkfree_fr"
+      },
+      "timeout": {
+        "title": "This move will take just a little bit longer",
+        "explanation": "We'll send you an email as soon as we're done so you know when you can sign back into your account. Thanks for your patience. {0}",
+        "learnMoreLink": "https://www.adobe.com/go/error-scenarios_fr",
+        "learnMoreChromeless": "https://www.adobe.com/go/error-scenarios-linkfree_fr"
+      },
+      "assetMigrationFailed": {
+        "title": "Unexpected error with your Adobe cloud storage",
+        "text": "We’re sorry — we encountered an error with your account while upgrading your company’s Adobe cloud storage. Here’s how you can get to work right away:",
+        "option1": "{0} to continue working as before. This profile includes the apps and services associated with your business plan.",
+        "option2": "If you had existing content in Adobe storage, rest assured  it’s  safe. It’s been moved to your new Personal Profile due to an error. ",
+        "apologizeForAnyInconvenience": "We apologize for any inconvenience. Please {0} if you have any questions.",
+        "selectYourBusinessProfile": "Select your Business Profile",
+        "learnMoreLink": "https://www.adobe.com/go/error-scenarios_fr",
+        "learnMoreLinkChromeless": "https://www.adobe.com/go/error-scenarios-linkfree_fr",
+        "adobeCustomerCare": "contact Adobe Customer Care"
+      }
+    },
+    "t2eProfilesSetup": {
+      "introduction": {
+        "title": "Introducing profile selection",
+        "explanation": "Since you have multiple Adobe business plans associated with your email address, we've created separate profiles for you, each with dedicated storage. {0}",
+        "yourBusinessProfiles": "Your Business Profiles correspond to your business plans provided by each organization",
+        "yourPersonalProfile": "Your Personal Profile includes your existing content stored in Adobe cloud storage. (This doesn't apply to content stored outside of Adobe cloud storage.) Don't worry — you can move content between profiles at any time.",
+        "note": "Note: You may see a partial list of Business Profiles until they're all set up, which may take a few days. Until then, please select your Personal Profile to continue working as usual.",
+        "learnMore": "Learn more",
+        "learnMoreLink": "https://www.adobe.com/go/user-profiles_fr",
+        "learnMoreLinkChromeless": "https://www.adobe.com/go/user-profiles-linkfree_fr"
+      },
+      "complete": {
+        "title": "Your Business Profile setup is complete",
+        "explanation": "All your Business Profiles have been successfully set up and are ready to use.",
+        "yourBusinessProfiles": "{0} By doing so, you'll access the apps and services provided by the corresponding organization.",
+        "yourPersonalProfile": "Any content previously stored in Adobe cloud storage is located in your Personal Profile (This doesn't apply to content stored outside of Adobe cloud storage.) {0} {1} that shows you how to manage your profiles.",
+        "selectTheBusinessProfile": "Select the Business Profile you wish to work in.",
+        "recommendation": "We recommend that you move the content to the appropriate Business Profile.",
+        "hereIsAnArticle": "Here's an article",
+        "hereIsAnArticleLink": "https://www.adobe.com/go/user-profiles_fr",
+        "hereIsAnArticleLinkChromeless": "https://www.adobe.com/go/user-profiles-linkfree_fr"
+      }
+    },
+    "updatePrimaryEmail": {
+      "title": "Update Your Email",
+      "personalEmailAddress": "personal email address",
+      "explanation": "The {0} domain is now managed by {1}. Please enter a {2} to continue using your account. None of the products or services will be affected by this change.",
+      "fields": {
+        "newEmail": {
+          "label": "New email address"
+        },
+        "repeatEmail": {
+          "label": "Retype email address"
+        }
+      }
+    }
+  },
+  "verifyYourIdentity": {
+    "title": "Verify your identity"
+  },
+  "jarvis": {
+    "contactUs": "Contact us again for more information"
+  },
+  "jumpConfirmation": {
+    "title": "Confirm sign-in account here again",
+    "description": "You'll be signing in as {0}. If you don't want to sign in, you can close this browser window. for now",
+    "signIn": "Sign in again"
+  }
+}

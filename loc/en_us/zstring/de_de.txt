@@ -1,0 +1,2 @@
+"$$$/invalid_client_id=There was an error with this action. Try again later."
+"$$$/backend_error=Could not accept the term of use. Please try to login later."

@@ -1,0 +1,9 @@
+{
+"hello world":"is my favourire word in in master",           
+"bad-feeling": "I've got a very bad feeling about this and its bad",
+"good-in-him": "There is good in him. I've felt it. Can you feel it?in master loc",
+"good-in-him-here": "There is good in him. I've felt it too here",
+"hey there":"hello I am here again"
+"New PR":"Check for new PR",
+"Lets Try Again":"Okay let us try"
+}
